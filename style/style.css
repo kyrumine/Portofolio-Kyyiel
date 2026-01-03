@@ -1,0 +1,60 @@
+body {
+  padding-top: 50px;
+  background-color: #fff;
+  color: #7c0505;
+}
+.navbar {
+  position: fixed; 
+  top: 0;        
+  left: 0;       
+  width: 100%;    
+  background-color: #333; 
+  color: white;   
+  padding: 15px 0; 
+  z-index: 9999;   
+}
+.hero-section {
+  padding-top: 2rem;
+  background: linear-gradient(#4f0409, #910f0f), url(https://source.unsplash.com/random/1200x600) no-repeat center center / cover;
+  color: white;
+}
+#projects {
+  background-color: #7c0505;
+  color: white;
+}
+footer {
+  background-color: #57060c;
+  color: #fff;
+}
+.shadow-sm {
+  box-shadow: 0 0.5rem 1rem #ff000080 !important; 
+}
+.shadow-p {
+box-shadow: 0 0.5rem 1rem #ff000080 !important; 
+}
+.btn-light {
+    background-color: #ffcc00; 
+    border-color: #ffff;
+    color: #4f0409;
+}
+.card-galeri {
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.card-galeri:hover{
+  transform: scale(1.05);
+  box-shadow: 0 0px 30px #ffffff;
+}
+.btn-custom {
+  background-color: #ffc107;
+  border-radius: 25px;
+  padding-top: 5px;
+  margin-top: 20px;
+}
+#contact {
+  background-color: #7c0505;
+  color: white;
+}
+#gallery {
+  margin-bottom: 50px;
+}
